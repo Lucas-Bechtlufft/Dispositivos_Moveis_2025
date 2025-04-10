@@ -23,7 +23,7 @@ adicionais específicas ao seu modo de organização.
 
 ---
 
-## ✅ Por que diferentes ViewGroups (como LinearLayout, ConstraintLayout, FrameLayout) utilizam subclasses específicas de LayoutParams?
+##  Por que diferentes ViewGroups (como LinearLayout, ConstraintLayout, FrameLayout) utilizam subclasses específicas de LayoutParams?
 Cada ViewGroup possui uma lógica própria de como posicionar e dimensionar suas Views filhas. Por isso, precisa de uma subclasse de LayoutParams que contenha informações específicas para essa lógica.
 - O LinearLayout.LayoutParams permite definir pesos e margens entre os componentes.
 - O ConstraintLayout.LayoutParams define regras de ancoragem entre elementos.
