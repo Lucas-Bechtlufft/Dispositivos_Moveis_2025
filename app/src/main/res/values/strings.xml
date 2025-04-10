@@ -1,0 +1,15 @@
+    <resources>
+        <string name="app_name">ListaAndroid</string>
+        <string name="titulo_formulario">Formulário de Cadastro</string>
+        <string name="nome">Nome</string>
+        <string name="email">Email</string>
+        <string name="endereco">Endereço</string>
+        <string name="cidade">Cidade</string>
+        <string name="telefone">Telefone</string>
+        <string name="estado">Estado</string>
+        <string name="cep">CEP</string>
+        <string name="aniversario">Aniversário</string>
+        <string name="enviar">Enviar</string>
+        <string name="calendar">Calendário</string>
+
+    </resources>
