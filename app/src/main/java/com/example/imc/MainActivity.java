@@ -35,10 +35,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void goToAnotherPage(View view) {
-        // Replace "AnotherActivity" with the actual name of your destination activity
         Intent intent = new Intent(this, MainActivity2.class);
         String message = "Eu vim da primeira tela";
-        intent.putExtra("EXTRA_MESSAGE", message);//passando o valor da variavel no obj com o identificador como a chave extra_message
+        intent.putExtra("EXTRA_MESSAGE", message);
 
 
         startActivity(intent);
